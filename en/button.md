@@ -1,8 +1,9 @@
+# Button
+
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+A simple button for sending a form#
+In the properties, you can choose in what kind of tag the button will be displayed on the published site. You can also set the "disabled" state in the properties.
 
 ## ⚙️ Usage
 
@@ -14,13 +15,13 @@ Add the component to the page
 
 | Prop name                     |    Default     |  Example   |
 | :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
+| type                          |     `div`      |   `div`    |
 
 ### In the code (for developers)
 
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
+| Prop Name                                                       | Name in the code |   Type    |     Default     | Example   |
+| :-------------------------------------------------------------: | :--------------: | :-------: | :-------------: | :-------: |
+| HTML element that will be used in the document: input or button |   `as`           | `enum`    |      `input`    |  `button` |
 
 ## 🗄 GitHub
 
@@ -28,8 +29,8 @@ Add the component to the page
 
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 

@@ -1,3 +1,5 @@
+# Box
+
 ## 📖 Detailed overview
 
 The Primitive Box is a universal container
@@ -22,14 +24,10 @@ Add the component to the page
 | :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
 | HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
 
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
-
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 
