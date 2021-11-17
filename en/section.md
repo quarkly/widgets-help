@@ -2,8 +2,10 @@
 
 ## 📖 Detailed overview
 
-The Section primitive is the basis for creating page blocks#
-The Section consists of two containers: external and internal. The internal container is used for the content and the external container is used for the background. In the properties, you can adjust the internal container width.
+The Section primitive is the basis for creating page blocks
+The Section consists of two containers: external and internal. The internal
+container is used for the content and the external container is used for the
+background. In the properties, you can adjust the internal container width.
 
 ## ⚙️ Usage
 
