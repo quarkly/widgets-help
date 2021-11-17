@@ -2,8 +2,9 @@
 
 ## 📖 Detailed overview
 
-The Text primitive displays text information on the page#
-Part of the text can be converted into a Link primitive or span. Link and Span within Text can be styled separately from Text.
+The Text primitive displays text information on the page
+Part of the text can be converted into a Link primitive or span.
+Link and Span within Text can be styled separately from Text.
 
 ## ⚙️ Usage
 
