@@ -2,8 +2,10 @@
 
 ## 📖 Detailed overview
 
-A simple button for sending a form#
-In the properties, you can choose in what kind of tag the button will be displayed on the published site. You can also set the "disabled" state in the properties.
+A simple button for sending a form
+In the properties, you can choose in what kind of tag the button will be
+displayed on the published site. You can also set the "disabled" state in
+the properties.
 
 ## ⚙️ Usage
 
@@ -11,10 +13,12 @@ Add the component to the page
 
 ## 🧩 Props
 
-| Prop name | Description                                                     |
-|-----------|-----------------------------------------------------------------|
-| type      | HTML element that will be used in the document: input or button |
-| disabled  | Flag indicating whether the button is locked or not             |
+| Prop name | Description                                                                                                                                                                                                                                                                                                                                                                                           |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| type      | HTML element that will be used in the document: input or button                                                                                                                                                                                                                                                                                                                                       |
+| disabled  | Flag indicating whether the button is locked or not                                                                                                                                                                                                                                                                                                                                                   |
+| href      | Destination address where the link takes to                                                                                                                                                                                                                                                                                                                                                           |
+| target    | The target attribute specifies where to open the linked document <ul>   <li>`_blankOpens` - the linked document in a new window or tab</li>   <li>`_selfOpens` - the linked document in the same frame as it was clicked (this is default)</li>   <li>`_parentOpens` - the linked document in the parent frame</li>   <li>`_topOpens` - the linked document in the full body of the window</li> </ul> |
 
 ## 🗓 Changelog
 
