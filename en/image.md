@@ -2,36 +2,33 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+The Image primitive represents an image
+The Image properties specify the source of the image, the cropping method,
+and alignment when cropping. You can also adjust sources for devices with
+high pixel densities and for different layouts. The Loading property helps
+speed up page loading.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name       | Description                                                                                                                                                                           |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| object fit      | Defines the way the content should fill the container relative to its height and width                                                                                                |
+| object position | Used with object fit and specifies the position of the contents inside the container                                                                                                  |
+| src             | Image link                                                                                                                                                                            |
+| srcset          | A comma-separated list of one or more lines defining a set of possible images to display in the browser. Each line of the list must contain a pixel width or pixel density descriptor |
+| sizes           | A list of image sizes for different page sizes. It contains comma-separated media queries with image width values                                                                     |
+| alt             | Alternative text description of the image will be displayed in the browser if the image couldn't be loaded                                                                            |
+| title           | The image title that will be shown as a tooltip when you hover over the image                                                                                                         |
+| loading         | Postpone image loading outside the screen                                                                                                                                             |
 
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 
@@ -47,5 +44,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
+Licensed under the ISC License

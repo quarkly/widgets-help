@@ -9,23 +9,12 @@ In the properties, you can choose in what kind of tag the button will be display
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| type                          |     `div`      |   `div`    |
-
-### In the code (for developers)
-
-| Prop Name                                                       | Name in the code |   Type    |     Default     | Example   |
-| :-------------------------------------------------------------: | :--------------: | :-------: | :-------------: | :-------: |
-| HTML element that will be used in the document: input or button |   `as`           | `enum`    |      `input`    |  `button` |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name | Description                                                     |
+|-----------|-----------------------------------------------------------------|
+| type      | HTML element that will be used in the document: input or button |
+| disabled  | Flag indicating whether the button is locked or not             |
 
 ## 🗓 Changelog
 
@@ -46,5 +35,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
+Licensed under the ISC License

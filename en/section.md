@@ -2,36 +2,26 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+The Section primitive is the basis for creating page blocks#
+The Section consists of two containers: external and internal. The internal container is used for the content and the external container is used for the background. In the properties, you can adjust the internal container width.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name       | Description                               |
+|-----------------|-------------------------------------------|
+| Inner-width     | Width of content area                     |
+| inner-min-width | Minimum width of content area             |
+| inner-max-width | Maximum width of content area             |
+| lazy-load       | Enables block loading as the page scrolls |
 
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 
@@ -47,6 +37,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
-
+Licensed under the ISC License

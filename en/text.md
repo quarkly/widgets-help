@@ -2,31 +2,24 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+The Text primitive displays text information on the page#
+Part of the text can be converted into a Link primitive or span. Link and Span within Text can be styled separately from Text.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name     | Description                                                                                                                             |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| overflow-wrap | Sets whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box |
+| word-break    | Sets whether line breaks appear wherever the text would otherwise overflow its content box                                              |
+| white-space   | Sets how white space inside an element is handled                                                                                       |
+| text-indent   | Sets the length of empty space (indentation) that is put before lines of text in a block                                                |
+| text-overflow | Sets how hidden overflow content is signaled to users                                                                                   |
+| hyphens       | specifies how words should be hyphenated when text wraps across multiple lines                                                          |
+| as            | HTML element that will be used in the document: h1, h2, h3, h4, h5, h6, p, div                                                          |
 
 ## 🗓 Changelog
 
@@ -47,7 +40,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
-
-
+Licensed under the ISC License

@@ -2,36 +2,24 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+The List primitive is used to display lists and repeating items, such as cards
+In the properties, you can choose the list and marker types for the list elements.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name       | Description                               |
+|-----------------|-------------------------------------------|
+| as              | list type: ol (numbered) or ul (bulleted) |
+| list-style-type | marker type for each element on the list  |
 
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 
@@ -47,5 +35,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
+Licensed under the ISC License

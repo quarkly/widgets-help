@@ -2,36 +2,26 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+An icon is from a set available in the builder.#
+In the properties, you can specify the icon size and color and choose the icon itself from the provided sets.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name | Description                                                                                                                                                                                             |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| size      | Icon size corresponds to the font size                                                                                                                                                                  |
+| category  | Set name:fa – Font Awesomebs – Bootstrap Iconsio – Ioniconsmd – Material Designti – Typiconsgo – GitHub Octiconsfi – Feathergi – Game Iconswi – Weather Iconsdi – Deviconsai – Ant Design               |
+| icon      | The icon name in a particular set. You can see a complete list of icon names on the official website of the desired set or you can find out the name of the desired icon by selecting it in the builder |
+| color     | The icon color corresponds to the color style property                                                                                                                                                  |
 
 ## 🗓 Changelog
 
--   21/04/2021 (v1.0)
--   First version
+- 19/10/2021 (0.2.60)
+- First version
 
 ## 📮 Feedback
 
@@ -47,4 +37,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
+Licensed under the ISC License

@@ -2,31 +2,26 @@
 
 ## 📖 Detailed overview
 
-The Primitive Box is a universal container
-In the properties, you can choose in what kind of element Box will be
-displayed on the published site.
+The Input primitive is a single or multi-line text input field. It's used for
+transferring text information to the form.
+In the properties, you can select the Input type, enter the placeholder,
+specify the default value, set the flags of mandatory or disabled state.
 
 ## ⚙️ Usage
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
-
-## 🗄 GitHub
-
-[Link to GitHub](https://github.com/quarkly/community-kit/tree/master/src/Animation)
+| Prop name    | Description                                                       |
+|--------------|-------------------------------------------------------------------|
+| name         | Unique field name for the form                                    |
+| type         | form element type: text, email, tel, date, number, file, search   |
+| placeholder  | placeholder                                                       |
+| defaultValue | default field value                                               |
+| required     | flag indicating a required field                                  |
+| disabled     | flag indicating the field is disabled by default                  |
+| as           | HTML element that will be used in the document: input or textarea |
 
 ## 🗓 Changelog
 
@@ -47,5 +42,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
-
+Licensed under the ISC License

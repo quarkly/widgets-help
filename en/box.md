@@ -10,19 +10,11 @@ displayed on the published site.
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
 
-### In the interface
-
-| Prop name                     |    Default     |  Example   |
-| :---------------------------- | :------------: | :--------: |
-| as                            | `div`          | `div`      |
-
-### In the code (for developers)
-
-| Prop Name                                      | Name in the code |   Type    |     Default     | Example  |
-| :--------------------------------------------: | :--------------: | :-------: | :-------------: | :------: |
-| HTML element that will be used in the document |   `as`           | `string`  |      `100`      |  `200`   |
+| Prop name | Description                                                                                                                                           |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| as        | an HTML element that will be used in the document: article, aside, blockquote, div, figcaption, figure, footer, header, hgroup, main, nav, or section |
 
 ## 🗓 Changelog
 
@@ -43,4 +35,4 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 ## 📝 License
 
-Licensed under the MIT License
+Licensed under the ISC License
