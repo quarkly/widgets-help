@@ -23,7 +23,16 @@ so to create interesting structure and content design solutions.
 
 Add the component to the page
 
-## 🧩 Components and Props
+## 🧩 Props
+
+| Prop name          | Description                               |
+|--------------------|-------------------------------------------|
+| cells-number-total | Total number of cells                     |
+| cells-number-group | Number of cells in the pattern            |
+| inner-width        | Content width                             |
+| inner-min-width    | Content min width                         |
+| inner-max-width    | Content max width                         |
+| lazy-load          | Enables block loading as the page scrolls |
 
 
 ## 🗓 Changelog
