@@ -14,6 +14,10 @@ In the LinkBox properties, you can set the target address, the tab
 behavior when you click the link, the LinkBox behavior when transferring
 lines and when overflowing.
 
+The difference between Link and LinkBox is that LinkBox is a container where other
+elements can be placed. These elements together will work as a link. For example,
+LinkBox is perfect for cards that link to another page.
+
 ## ⚙️ Usage
 
 Add the component to the page
