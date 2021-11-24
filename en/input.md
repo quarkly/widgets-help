@@ -1,5 +1,7 @@
 # Input
 
+![Input image](https://github.com/quarkly/widgets-help/raw/main/images/Input.png)
+
 ## 📖 Detailed overview
 
 The Input primitive is a single or multi-line text input field. It's used for

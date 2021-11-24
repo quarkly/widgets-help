@@ -1,5 +1,7 @@
 # Hr
 
+![Hr image](https://github.com/quarkly/widgets-help/raw/main/images/Hr.png)
+
 ## 📖 Detailed overview
 
 Separator built due to the upper boundary.

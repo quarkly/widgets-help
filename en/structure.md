@@ -1,5 +1,7 @@
 # Structure
 
+![Structure image](https://github.com/quarkly/widgets-help/raw/main/images/Structure.png)
+
 ## 📖 Detailed overview
 
 Structure is a component for forming a block with content. Unlike Section, here you can

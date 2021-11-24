@@ -1,5 +1,7 @@
 # Image
 
+![Image image](https://github.com/quarkly/widgets-help/raw/main/images/Image.png)
+
 ## 📖 Detailed overview
 
 The Image primitive represents an image

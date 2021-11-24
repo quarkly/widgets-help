@@ -1,5 +1,7 @@
 # LinkBox
 
+![LinkBox image](https://github.com/quarkly/widgets-help/raw/main/images/LinkBox.png)
+
 ## 📖 Detailed overview
 
 The LinkBox primitive is used for:

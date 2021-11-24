@@ -1,5 +1,7 @@
 # Section
 
+![Section image](https://github.com/quarkly/widgets-help/raw/main/images/Section.png)
+
 ## 📖 Detailed overview
 
 The Section primitive is the basis for creating page blocks
