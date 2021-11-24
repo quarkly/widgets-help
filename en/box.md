@@ -1,6 +1,6 @@
 # Box
 
-![Box image](../images/Box.png)
+![Box image](https://github.com/quarkly/widgets-help/raw/main/images/Box.png)
 
 ## 📖 Detailed overview
 
