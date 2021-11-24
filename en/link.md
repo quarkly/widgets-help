@@ -1,5 +1,7 @@
 # Link
 
+![Link image](https://github.com/quarkly/widgets-help/raw/main/images/Link.png)
+
 ## 📖 Detailed overview
 
 The Link primitive is used for:

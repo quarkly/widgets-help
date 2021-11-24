@@ -1,5 +1,7 @@
 # Icon
 
+![Icon image](https://github.com/quarkly/widgets-help/raw/main/images/Icon.png)
+
 ## 📖 Detailed overview
 
 An icon is from a set available in the builder.

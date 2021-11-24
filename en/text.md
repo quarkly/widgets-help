@@ -1,5 +1,7 @@
 # Text
 
+![Text image](https://github.com/quarkly/widgets-help/raw/main/images/Text.png)
+
 ## 📖 Detailed overview
 
 The Text primitive displays text information on the page

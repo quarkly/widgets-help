@@ -1,5 +1,7 @@
 # List
 
+![List image](https://github.com/quarkly/widgets-help/raw/main/images/List.png)
+
 ## 📖 Detailed overview
 
 The List primitive is used to display lists and repeating items, such as cards
