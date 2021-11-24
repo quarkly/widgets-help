@@ -1,6 +1,6 @@
 # Box
 
-![Box image](images/Box.png)
+![Box image](../images/Box.png)
 
 ## 📖 Detailed overview
 
