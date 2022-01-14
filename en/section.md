@@ -15,12 +15,12 @@ Add the component to the page
 
 ## 🧩 Props
 
-| Prop name       | Description                               |
-|-----------------|-------------------------------------------|
-| Inner-width     | Width of content area                     |
-| inner-min-width | Minimum width of content area             |
-| inner-max-width | Maximum width of content area             |
-| lazy-load       | Enables block loading as the page scrolls |
+| Prop name         | Description                               |
+|------------------ |-------------------------------------------|
+| Content width     | Width of content area                     |
+| Content min width | Minimum width of content area             |
+| Content max width | Maximum width of content area             |
+| lazy-load         | Enables block loading as the page scrolls |
 
 ## 🗓 Changelog
 

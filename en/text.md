@@ -22,7 +22,7 @@ Add the component to the page
 | text-indent   | Sets the length of empty space (indentation) that is put before lines of text in a block                                                |
 | text-overflow | Sets how hidden overflow content is signaled to users                                                                                   |
 | hyphens       | specifies how words should be hyphenated when text wraps across multiple lines                                                          |
-| as            | HTML element that will be used in the document: h1, h2, h3, h4, h5, h6, p, div                                                          |
+| as            | HTML element that will be used in the document: h1, h2, h3, h4, h5, h6, p, div, span                                                    |
 
 ## 🗓 Changelog
 

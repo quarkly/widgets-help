@@ -25,14 +25,14 @@ Add the component to the page
 
 ## 🧩 Props
 
-| Prop name          | Description                               |
-|--------------------|-------------------------------------------|
-| cells-number-total | Total number of cells                     |
-| cells-number-group | Number of cells in the pattern            |
-| inner-width        | Content width                             |
-| inner-min-width    | Content min width                         |
-| inner-max-width    | Content max width                         |
-| lazy-load          | Enables block loading as the page scrolls |
+| Prop name                      | Description
+|--------------------------------| ------------------------------------------|
+| Total number of cells          | Total number of cells                     |
+| Number of cells in the pattern | Number of cells in the pattern            |
+| Content width                  | Width of content area                     |
+| Content min width              | Minimum width of content area             |
+| Content max width              | Maximum width of content area             |
+| lazy-load                      | Enables block loading as the page scrolls |
 
 
 ## 🗓 Changelog
